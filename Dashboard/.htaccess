@@ -1,0 +1,9 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+# Rewrite for login script
+RewriteRule ^login$ access_system.php [NC,L]
+RewriteRule ^home$ index.php [NC,L]
+RewriteRule ^request_handler$ App/Views/Admin/request_handler.php [NC,L]
+RewriteRule ^save_flower$ App/Views/Admin/save_flower.php [NC,L]
+RewriteRule ^upload_photos$ App/Views/Admin/upload_photos.php [NC,L]
+RewriteRule ^logout$ App/Views/Admin/log_user_out.php [NC,L]

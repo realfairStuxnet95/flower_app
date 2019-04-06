@@ -1,0 +1,5 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+# Rewrite for login script
+RewriteRule ^flower$ product_details.php [NC,L]
+RewriteRule ^index$ index.php [NC,L]
