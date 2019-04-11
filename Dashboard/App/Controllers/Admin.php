@@ -16,11 +16,23 @@ class Admin extends Execute {
 		return $this->querying($sql);
 	}
 	public function loadPublicFlowers(){
-		$sql="SELECT * FROM ".Tables::flower()." WHERE status='ACTIVE' ORDER BY id DESC LIMIT 10";
+		$sql="SELECT * FROM ".Tables::flower()." WHERE status='ACTIVE' ORDER BY id DESC LIMIT 6";
+		return $this->querying($sql);
+	}
+	public function loadOtherFlowers($flower_id){
+		$sql="SELECT * FROM ".Tables::flower()." WHERE id!=\"$flower_id\" AND status='ACTIVE' ORDER BY id DESC LIMIT 6";
+		return $this->querying($sql);
+	}
+	public function loadAllPublicFlowers(){
+		$sql="SELECT * FROM ".Tables::flower()." WHERE status='ACTIVE' ORDER BY id DESC LIMIT 100";
 		return $this->querying($sql);
 	}
 	public function load_images($flower_id){
 		$sql="SELECT * FROM ".Tables::images()." WHERE flower_id=\"$flower_id\" ORDER BY id DESC LIMIT 10";
+		return $this->querying($sql);
+	}
+	public function load_all_images(){
+		$sql="SELECT * FROM ".Tables::images()." ORDER BY id DESC LIMIT 40";
 		return $this->querying($sql);
 	}
 	public function getFlowerDetails($flower_id){

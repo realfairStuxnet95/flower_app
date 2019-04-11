@@ -3,3 +3,7 @@ RewriteEngine on
 # Rewrite for login script
 RewriteRule ^flower$ product_details.php [NC,L]
 RewriteRule ^index$ index.php [NC,L]
+RewriteRule ^about$ about_us.php [NC,L]
+RewriteRule ^flowers-list$ products_list.php [NC,L]
+RewriteRule ^photos$ insta_gallery.php [NC,L]
+RewriteRule ^contact$ contact_us.php [NC,L]

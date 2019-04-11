@@ -5,39 +5,25 @@
 		    <nav id="nav" class="navbar">
 				<!--  Main navigation  -->
 				<a class="logo" href="index">
-					<img src="assets/images/logo.png" alt=""> 
+					<img src="assets/images/slider/logo.png" alt=""> 
 				</a>
-				<ul class="main-nav nav navbar-nav navbar-right">
+				<ul class="main-nav nav navbar-nav navbar-right" style="margin-top: 25px;">
 					<li>
 					</li>
 					<li class="dropdown active">
 						<a href="index">Home</a>
-						<ul class="dropdown-menu">
-			            	<li><a href="./v2/index.html">Home 2</a>
-			            	</li>
-			            	<li><a href="./v3/index.html">Home 3</a></li>
-		            	</ul>
 					</li>
 		         	<li class="dropdown">
-		         		<a href="product_grid.html">Product</a>
-		         		<ul class="dropdown-menu">
-			            	<li><a href="product_grid.html">Product grid</a></li>
-			            	<li><a href="product_list.html">Product list</a></li>
-			                <li><a href="product_sidebar.html">Product sidebar</a></li>
-			                
-			            	<li><a href="product_single.html">Product single</a></li>
-		            	</ul>
+		         		<a href="flowers-list">Product</a>
 		         	</li>
-		           	<li class="dropdown"><a href="about.html">About</a></li>
-		            <li class="dropdown">
-		            	<a href="blog.html">Blog</a>
-		            	<ul class="dropdown-menu">
-			            	<li><a href="blog.html">Blog Grid</a></li>
-			                <li><a href="blog_list.html">Blog List</a></li>
-			            	<li><a href="blog_single.html">Single Blog</a></li>
-		            	</ul>
+		           	<li><a href="about">About</a></li>
+		           	<li><a href="photos">Gallery</a></li>
+		            <li><a href="contact">Contact</a></li>
+		            <li>
+		            	<a href="https://www.instagram.com/the_arums_flowers/" target="_blank">
+		            		Follow Us <i class="fa fa-instagram" style="font-size: 2em;"></i>
+		            	</a>
 		            </li>
-		            <li><a href="contact.html">Contact</a></li>
 				</ul>
 				<!-- /Main navigation -->
 			</nav>
@@ -84,7 +70,7 @@
 		      </button>
 		      <!-- logo -->
 		      <div class="navbar-brand">
-		      	<a class="logo" href="index.html"><img src="assets/images/logo.png" alt=""> </a> 
+		      	<a class="logo" href="index"><img src="assets/images/logo.png" alt=""> </a> 
 		      </div>
 		      <!-- logo -->
 		    </div>
@@ -92,42 +78,19 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      	<ul class="nav navbar-nav">
 			       <li class="active dropdown">
-			          	<a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-			          	<ul class="dropdown-menu">
-				          	<li><a href="./v2/index.html">Home 2</a></li>
-				            <li><a href="./v3/index.html">Home 3</a></li>
-			         	</ul>
+			          	<a href="index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
 		       		</li>
+		       		<li><a href="about">About Us</a></li>
+		       		<li><a href="photos">Gallery</a></li>
 			        <li class="dropdown">
-			          	<a href="product_grid.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
-			          	<ul class="dropdown-menu">
-				          	<li><a href="product_grid.html">Product grid</a></li>
-			            	<li><a href="product_list.html">Product list</a></li>
-			                <li><a href="product_sidebar.html">Product sidebar</a></li>
-			            	<li><a href="product_single.html">Product single</a></li>
-			         	</ul>
-		       		</li>
-		       		<li class="dropdown">
-			          	<a href="#l" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Page<span class="caret"></span></a>
-			          	<ul class="dropdown-menu">
-				            <li><a href="faq.html">FAQ</a></li>
-					        <li><a href="404.html">Page 404</a></li>
-			         	</ul>
-		       		</li>
-		       		 <li class="dropdown">
-			          	<a href="blog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
-			          	<ul class="dropdown-menu">
-				            <li><a href="blog.html">Blog Grid</a></li>
-			                <li><a href="blog_list.html">Blog List</a></li>
-			            	<li><a href="blog_single.html">Single Blog</a></li>
-			         	</ul>
+			          	<a href="flowers-list" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
 		       		</li>
 		       		<li><a href="contact.html">Contact</a></li>
 		      	</ul>
 		    </div>
 		</nav>
 	</div>
-	<div class="footer-mobile-bar">
+	<div class="footer-mobile-bar" style="display: none;">
 		<ul class="columns-2">
 			<li class="my-account">
 				<a class="my-accrount-footer" href="account.html">

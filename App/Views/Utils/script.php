@@ -8,6 +8,7 @@
 	<!-- bootstrap js-->
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/gallery.js"></script>
 	<!-- slick js-->
 	<script src="assets/js/slick.min.js"></script>
 

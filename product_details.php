@@ -123,27 +123,17 @@ function backHome(){
 								</span>
 							</div><!-- /.product-price -->
 							<div class="excerpt">
-								<?php echo $comment; ?>          
+								<blockquote>
+									<?php echo $comment; ?>  
+								</blockquote>        
 						    </div>
 
                             <table class="variations">
                             	<tbody>
-                            		<tr>
-                            			<td class="label"><label>Color:</label></td>
-                            			<td class="value">
-                            				<div class="tawcvs-swatches color_selector" data-attribute_name="attribute_pa_color">
-                            					<span class="swatch swatch-color swatch-blue" title="Blue" data-value="blue">Blue</span>
-                            					<span class="swatch swatch-color swatch-green" title="Green" data-value="green">Green</span>
-                            					<span class="swatch swatch-color swatch-orange" title="orange" data-value="orange">orange</span>
-                            					<span class="swatch swatch-color swatch-purple" title="Purple" data-value="purple">Purple</span>
-                            					<span class="swatch swatch-color swatch-red" title="Red" data-value="red">Red</span>
-                            				</div>
-                            			</td>
-                            		</tr>
                             	</tbody>
                             </table>
 
-						    <div class="product-footer">
+						    <div class="product-footer" style="display: none;">
 								<form action="#" class="add-to-cart" method="post" enctype="multipart/form-data">
 									<input class="cart-qty-box" type="number" name="qtybutton" value="0">
 									<input type="hidden" name="id" value="">
@@ -187,203 +177,7 @@ function backHome(){
 
 	<!-- =====================================
     	==== Start up-sells -->
-	<div class="up-sells pt-20">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class=" up-sells_content pt-30">
-						<h3 class="theme-heading">You May Also Like</h3>
-						<div class="product products-grid">
-							<div class="owl-carousel owl-theme" data-pagination="true" data-nav="flase" data-items="3" data-large="3" data-medium="3" data-smallmedium="2" data-extrasmall="1" data-verysmall="1" data-autoplay="true">
-			            		<div class="item">
-			            			<div class="product-block" data-publish-date="">
-										<div class="product-image ">
-											<div class="product-thumbnail">
-												<a href="product_single.html" title="">
-													<img class="product-featured-image" src="assets/images/product/product_4.jpg" alt="">
-												</a>
-											</div>
-											<div class="product-actions">
-												<a href="#" data-id="" class="btn wishlist product-quick-whistlist" title="Add to whistlist">
-												<i class="fa fa-heart-o"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-view btn-quickview" title="Quickview">
-												    <i class="fa fa-eye"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-compare btn-compare" title="Compare">
-												    <i class="fa fa-retweet"></i>
-												</a>
-											</div>
-										</div><!-- /.product-image -->
-										<div class="product-meta">
-											<span class="product-rating" data-rating="">
-												<span class="star-rating">
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-												</span>
-											</span>
-											<!-- end rating -->
-											<h4 class="product-name">
-												<a href="product_single.html" title="">
-													Sport Standard edition
-												</a>
-											</h4>
-											<div class="product-price">
-												<span class="amout">
-													<span class="money" data-currency-usd="$700.00">$700.0</span>
-												</span>
-												<a href="product_single.html" class="add_to_cart_button">Add to Cart</a>
-											</div>
-										</div><!-- /.product-meta -->
-									</div>
-			            		</div>
-			            		<div class="item">
-			            			<div class="product-block" data-publish-date="">
-										<div class="product-image ">
-											<div class="product-thumbnail">
-												<a href="product_single.html" title="">
-													<img class="product-featured-image" src="assets/images/product/product_1.jpg" alt="">
-												</a>
-											</div>
-											<div class="product-actions">
-												<a href="#" data-id="" class="btn wishlist product-quick-whistlist" title="Add to whistlist">
-												<i class="fa fa-heart-o"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-view btn-quickview" title="Quickview">
-												    <i class="fa fa-eye"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-compare btn-compare" title="Compare">
-												    <i class="fa fa-retweet"></i>
-												</a>
-											</div>
-										</div><!-- /.product-image -->
-										<div class="product-meta">
-											<span class="product-rating" data-rating="">
-												<span class="star-rating">
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-												</span>
-											</span>
-											<!-- end rating -->
-											<h4 class="product-name">
-												<a href="product_single.html" title="">
-													Casual Premium edition
-												</a>
-											</h4>
-											<div class="product-price">
-												<span class="amout">
-													<span class="money" data-currency-usd="$700.00">$700.0</span>
-												</span>
-												<a href="product_single.html" class="add_to_cart_button">Add to Cart</a>
-											</div>
-										</div><!-- /.product-meta -->
-									</div>
-			            		</div>
-			            		<div class="item">
-			            			<div class="product-block" data-publish-date="">
-										<div class="product-image ">
-											<div class="product-thumbnail">
-												<a href="product_single.html" title="">
-													<img class="product-featured-image" src="assets/images/product/product_5.jpg" alt="">
-												</a>
-											</div>
-											<div class="product-actions">
-												<a href="#" data-id="" class="btn wishlist product-quick-whistlist" title="Add to whistlist">
-												<i class="fa fa-heart-o"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-view btn-quickview" title="Quickview">
-												    <i class="fa fa-eye"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-compare btn-compare" title="Compare">
-												    <i class="fa fa-retweet"></i>
-												</a>
-											</div>
-										</div><!-- /.product-image -->
-										<div class="product-meta">
-											<span class="product-rating" data-rating="">
-												<span class="star-rating">
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-												</span>
-											</span>
-											<!-- end rating -->
-											<h4 class="product-name">
-												<a href="product_single.html" title="">
-													Gold Limited edition
-												</a>
-											</h4>
-											<div class="product-price">
-												<span class="amout">
-													<span class="money" data-currency-usd="$700.00">$700.0</span>
-												</span>
-												<a href="product_single.html" class="add_to_cart_button">Add to Cart</a>
-											</div>
-										</div><!-- /.product-meta -->
-									</div>
-			            		</div>
-			            		<div class="item">
-			            			<div class="product-block" data-publish-date="">
-										<div class="product-image ">
-											<div class="product-thumbnail">
-												<a href="product_single.html" title="">
-													<img class="product-featured-image" src="assets/images/product/product_6.jpg" alt="">
-												</a>
-											</div>
-											<div class="product-actions">
-												<a href="#" data-id="" class="btn wishlist product-quick-whistlist" title="Add to whistlist">
-												<i class="fa fa-heart-o"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-view btn-quickview" title="Quickview">
-												    <i class="fa fa-eye"></i>
-												</a>
-												<a href="" data-id="" class="btn product-quick-compare btn-compare" title="Compare">
-												    <i class="fa fa-retweet"></i>
-												</a>
-											</div>
-										</div><!-- /.product-image -->
-										<div class="product-meta">
-											<span class="product-rating" data-rating="">
-												<span class="star-rating">
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-													<i class="fa fa-star-o"></i>
-												</span>
-											</span>
-											<!-- end rating -->
-											<h4 class="product-name">
-												<a href="product_single.html" title="">
-													Casual Premium edition
-												</a>
-											</h4>
-											<div class="product-price">
-												<span class="amout">
-													<span class="money" data-currency-usd="$700.00">$700.0</span>
-												</span>
-												<a href="product_single.html" class="add_to_cart_button">Add to Cart</a>
-											</div>
-										</div><!-- /.product-meta -->
-									</div>
-			            		</div>
-			            	</div>
-					 	</div>
-					 </div>
-		 		</div>
-	 		</div>
-	 	</div>
-	</div>
+    <?php include VIEWS.'Product./others.php'; ?>
 	<!-- =====================================
     	==== End up-sells -->
  <?php include VIEWS.'Utils/footer.php'; ?>

@@ -67,10 +67,10 @@ define("USER_TYPE", $_SESSION['user_type']);
                                     if(in_array($action, $validRequest)){
                                         include VIEWS.'Admin/'.$action.'.php';
                                     }else{
-                                        include VIEWS.'Admin/dashboard.php';
+                                        include VIEWS.'Admin/manage_flowers.php';
                                     }
                                 }else{
-                                    include VIEWS.'Admin/dashboard.php';
+                                    include VIEWS.'Admin/manage_flowers.php';
                                 }
                             ?>                                                 
                         </div><!-- container -->

@@ -1,51 +1,26 @@
     <footer class="site-footer site-footer-3 clearfix">
     	<div class="site-footer__main section-bg" style="background-image:url(assets/images/bg_footer.jpg)">
 	    	<div class="container">
-	    		<div class="col-md-5 col-sm-6 col-xs-12 footer-block pb-30">
+	    		<div class="col-md-6 col-sm-6 col-xs-12 footer-block pb-30">
 		    		 <h2><font style="padding: 2px;background: #ff3333;color:#fff;border-radius: 5px;">Arums </font>Flowers</h2>
-		    		 <p class="address pt-30">Office: 972 Sylvan Street South Angelina, NL S0B2V9<br/>
-						Phone: (633) 497-1888 / (062) 109-9222<br/>
-						Email: example.com
+		    		 <p class="address pt-30">Address: KN2 ave , Kigali near by National Institute of statistics<br/>
+						Phone: (250) 788894240<br/>
+						Email: info@arumusflowerdelivery.rw
 					</p>
+					<h4 style="color: #FF3333;">We are Social ! Find us on.</h4>
 					<ul class="social pt-10">
 						<li>
-							<a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-google"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fa fa-pinterest"></i></a>
+							<a href="https://www.instagram.com/the_arums_flowers/" target="_blank"><i class="fa fa-instagram"></i></a>
 						</li>
 					</ul>
 		    	</div>
-		    	<div class="col-md-2 col-sm-6 col-xs-12 footer-block pb-30">
+		    	<div class="col-md-3 col-sm-6 col-xs-12 footer-block pb-30">
 	    			<h3 class="widget-title">Quick Links</h3>
 	    			<ul>
+	    				<li><a href="index">Home</a></li>
+	    				<li><a href="flowers-list">Products</a></li>
 	    				<li><a href="#">About Us</a></li>
 	    				<li><a href="#">Contact Us</a></li>
-	    				<li><a href="#">News</a></li>
-	    				<li><a href="#">My Account</a></li>
-	    				<li><a href="#">FAQ</a></li>
-	    				<li><a href="#">Register</a></li>
-	    			</ul>
-		    	</div>
-
-		    	<div class="col-md-2 col-sm-6 col-xs-12 footer-block pb-30">
-	    			<h3 class="widget-title">Merchant Central</h3>
-	    			<ul>
-	    				<li><a href="#">Cleansers & Toners</a></li>
-	    				<li><a href="#">Serums & Boosters</a></li>
-	    				<li><a href="#">Day Care</a></li>
-	    				<li><a href="#">Night Care</a></li>
-	    				<li><a href="#">Eye Care</a></li>
-	    				<li><a href="#">Sun Protection</a></li>
 	    			</ul>
 		    	</div>
 		    	<div class="col-md-3 col-sm-6 col-xs-12 footer-block pb-30">
@@ -58,7 +33,7 @@
 							<div class="features-description">
 								<h4>Do you have any question?</h4>
 								<p>
-									email.example@gmail.com
+									info@arumusflowerdelivery.rw
 								</p>
 							</div>
 						</div>
@@ -67,23 +42,34 @@
 								<img src="assets/images/icon_phone.png" alt="">
 							</div>
 							<div class="features-description">
-								<h4>1800-1314-1009</h4>
+								<h4>Leave a call !</h4>
 								<p>
-									1800-1314-1009
+									+250788894240
+								</p>
+							</div>
+							<div class="features-description">
+								<h4>You can pay with (MTN Mobile Money) or KCB Account Transfer</h4>
+								<p style="font-weight: bold;">
+									<a href="#">
+										<i class="fa fa-money" style="font-size: 20px;"></i><span class='label'>+250788894240 </span>
+									</a><br>
+									<a href="#">
+										<i class="fa fa-cc-visa"></i> 4490264674 KCB
+									</a>
 								</p>
 							</div>
 						</div>
 		    		</div>
 		    		<div class="payment pt-20">
-		        		<img src="assets/images/payment.png" alt="">
+		        		<img src="assets/images/slider/method.png" style="width: 60%;" alt="">
 		        	</div>
 		    	</div>
 		    </div>
 	   </div>
 	  <div class="site-footer__copyright">
 	   		<div class="container">
-	    		<div class="copyright pull-left">
-	        		© <?php echo date('Y'); ?>. All rights reserved.<a href="#" target="_blank"><?php echo APP_NAME; ?></a>
+	    		<div class="copyright pull-center">
+	        		<center>© <?php echo date('Y'); ?>. All rights reserved.<a href="#" target="_blank"><?php echo APP_NAME; ?></a></center>
 	        	</div>
 	       </div>
 	   </div>

@@ -44,11 +44,10 @@ require LOADER;
 						</h2>
 				        <div class="sp-layer main-slider__text" data-horizontal="50%" data-vertical="320"  data-show-transition="up" data-hide-transition="left" data-show-duration="1000" data-show-delay="1000" data-hide-delay="1000">
 				            <p class="hidden-xs">
-				           		 Organica we know that washing your face is the most important part <br/>
-								of any skincare routine, but we all use different products to get the job ...
+				           		 We Deliver The Beauty From Nature.
 							</p>
 				            <div class="main-slider__btn-group">
-				                <a class="mt-40 btn btn-features btn-primary btn-radius" href="product_grid.html">Shop now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+				                <a class="mt-40 btn btn-features btn-primary btn-radius" href="flowers-list">Shop now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
 				            </div>
 				        </div>
 				        <span class="sp-layer main-slider__img" data-horizontal="80%" data-vertical="500"  data-show-transition="up" data-hide-transition="right" data-show-duration="1200" data-show-delay="1200" data-hide-delay="1200">
@@ -68,11 +67,10 @@ require LOADER;
 					</h2>
 			        <div class="sp-layer main-slider__text text-center" data-horizontal="50%" data-vertical="310"  data-show-transition="up" data-hide-transition="center" data-show-duration="1000" data-show-delay="1000" data-hide-delay="1000">
 			            <p class="hidden-xs">
-			           		 Organica we know that washing your face is the most important part<br/>
-							of any skincare routine, but we all use different products to get the job ...
+			           		 We Deliver The Beauty From Nature.
 						</p>
 			            <div class="main-slider__btn-group">
-			                <a class="mt-40 btn btn-features btn-primary btn-radius" href="product_grid.html">Shop now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+			                <a class="mt-40 btn btn-features btn-primary btn-radius" href="flowers-list">Shop now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
 			            </div>
 			        </div>
 			        <div style="display: none;" class="sp-layer main-slider__text btn-sale text-white font-bold section-bg hidden-xs hidden-sm" data-horizontal="72%" data-vertical="120"  data-show-transition="up" data-hide-transition="left" data-show-duration="1200" data-show-delay="1200" data-hide-delay="1200" style="background-image:url(assets/images/slider/home3_slider1_3.png)">

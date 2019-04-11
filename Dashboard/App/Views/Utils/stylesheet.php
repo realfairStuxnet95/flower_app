@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="assets/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png"
 
 <link href="assets/plugins/morris/morris.css" rel="stylesheet">
 
