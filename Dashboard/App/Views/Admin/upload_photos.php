@@ -1,5 +1,5 @@
  <?php  
-define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'flower/Dashboard/');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/flower/Dashboard/');
 define("LOADER", ROOT_URL.'App/Views/Utils/classes_loader.php');
  $output = '';  
  if(is_array($_FILES))  
@@ -23,7 +23,7 @@ define("LOADER", ROOT_URL.'App/Views/Utils/classes_loader.php');
                 $output="Error While saving Image.Please contact system admin";
               }
             }else{
-              $output="Error while Uploading File.Contact system admin";
+              $output=$targetPath;
             } 
        }  
     }        

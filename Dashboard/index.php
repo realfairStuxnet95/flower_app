@@ -1,5 +1,5 @@
 <?php 
-define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'flower/Dashboard/');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/flower/Dashboard/');
 define("LOADER", ROOT_URL.'App/Views/Utils/classes_loader.php');
 define("AUTH", ROOT_URL.'App/Views/Utils/auth.php');
 define("VIEWS", ROOT_URL.'App/Views/');

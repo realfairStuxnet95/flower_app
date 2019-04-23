@@ -1,9 +1,9 @@
 <?php 
-define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'flower/');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/flower/');
 define("VIEWS", ROOT_URL.'App/Views/');
 define("APP_URL", ROOT_URL.'/Dashboard/');
 define("LOADER", APP_URL.'App/Views/Utils/classes_loader.php');
-define("APP_NAME", 'Arums Flowers');
+define("APP_NAME", 'Aroma Florist');
 require LOADER;
 ?>
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ require LOADER;
 							<div class="items_group clearfix">
 								<div class="features_list list_item clearfix">
 			                        <div class="features-images">
-			                           <img src="assets/images/icon_contact_phone.png" alt="">
+			                           <img src="assets/images/icon_phone.png" alt="">
 			                        </div>
 			                        <div class="features-description">
 			                            <h4>Call Us</h4>
@@ -51,19 +51,19 @@ require LOADER;
 			                    </div>
 			                    <div class="features_list list_item clearfix">
 			                        <div class="features-images">
-			                           <img src="assets/images/icon_contact_mail.png" alt="">
+			                           <img src="assets/images/icon_mail.png" alt="">
 			                        </div>
 			                        <div class="features-description">
 			                            <h4>Drop a Line</h4>
 			                            <p>
-			                            	Drop us a line at  <strong><a href="mailto:info@arumusflowerdelivery.rw"> info@arumusflowerdelivery.rw</a> </strong>,
+			                            	Drop us a line at  <strong><a href="mailto:info@arumusflowerdelivery.rw"> info@aromaflorist.rw</a> </strong>,
 			                            	<br/>and we’ll get back soon.
 										</p>
 			                        </div>
 			                    </div>
 			                    <div class="features_list list_item clearfix">
 			                        <div class="features-images">
-			                           <img src="assets/images/icon_contact_map.png" alt="">
+			                           <img src="assets/images/location.png" alt="">
 			                        </div>
 			                        <div class="features-description">
 			                            <h4>Visit Us</h4>
@@ -99,10 +99,9 @@ require LOADER;
 						</form>
 					</div>
 				</div>
-				<div class="col-md-12" style="display: none;">
-					<div class="map pt-40 pb-40">
-						 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30601359607!2d-74.25987105452268!3d40.69714940585523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1527841460700" allowfullscreen>
-	            		</iframe>
+				<div class="col-md-12" style="display: block;">
+					<div class="map pt-10 pb-10">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.523446186336!2d30.058701014754806!3d-1.9433960985831646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwNTYnMzYuMiJTIDMwwrAwMyczOS4yIkU!5e0!3m2!1sen!2srw!4v1555924454835!5m2!1sen!2srw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	            	</div>
 				</div>
 

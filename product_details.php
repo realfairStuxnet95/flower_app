@@ -1,9 +1,9 @@
 <?php 
-define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'flower/');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/flower/');
 define("VIEWS", ROOT_URL.'App/Views/');
 define("APP_URL", ROOT_URL.'/Dashboard/');
 define("LOADER", APP_URL.'App/Views/Utils/classes_loader.php');
-define("APP_NAME", 'ArumsFlower');
+define("APP_NAME", 'Aroma Florist');
 require LOADER;
 if(isset($_GET['numbering']) && $_GET['numbering']!=''){
 	if(isset($_GET['product']) && isset($_GET['description']) && isset($_GET['price']) && isset($_GET['items']) && isset($_GET['comment'])){
@@ -177,7 +177,7 @@ function backHome(){
 
 	<!-- =====================================
     	==== Start up-sells -->
-    <?php include VIEWS.'Product./others.php'; ?>
+    <?php include VIEWS.'Product/others.php'; ?>
 	<!-- =====================================
     	==== End up-sells -->
  <?php include VIEWS.'Utils/footer.php'; ?>

@@ -19,7 +19,7 @@
 		           	<li><a href="about">About</a></li>
 		           	<li><a href="photos">Gallery</a></li>
 		            <li><a href="contact">Contact</a></li>
-		            <li>
+		            <li style="padding: 5px;">
 		            	<a href="https://www.instagram.com/the_arums_flowers/" target="_blank">
 		            		Follow Us <i class="fa fa-instagram" style="font-size: 2em;"></i>
 		            	</a>

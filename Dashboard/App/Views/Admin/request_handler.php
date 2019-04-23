@@ -1,5 +1,5 @@
 <?php 
-define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'flower/Dashboard/');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/flower/Dashboard/');
 define("LOADER", ROOT_URL.'App/Views/Utils/classes_loader.php');
 require LOADER;
 $success="200";

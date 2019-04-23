@@ -2,15 +2,15 @@
     	<div class="site-footer__main section-bg" style="background-image:url(assets/images/bg_footer.jpg)">
 	    	<div class="container">
 	    		<div class="col-md-6 col-sm-6 col-xs-12 footer-block pb-30">
-		    		 <h2><font style="padding: 2px;background: #ff3333;color:#fff;border-radius: 5px;">Arums </font>Flowers</h2>
+		    		 <h2><?php echo APP_NAME; ?></h2>
 		    		 <p class="address pt-30">Address: KN2 ave , Kigali near by National Institute of statistics<br/>
 						Phone: (250) 788894240<br/>
-						Email: info@arumusflowerdelivery.rw
+						Email: info@aromaflorist.rw
 					</p>
 					<h4 style="color: #FF3333;">We are Social ! Find us on.</h4>
 					<ul class="social pt-10">
 						<li>
-							<a href="https://www.instagram.com/the_arums_flowers/" target="_blank"><i class="fa fa-instagram"></i></a>
+							<a style="color: #ff3333;" href="https://www.instagram.com/the_arums_flowers/" target="_blank"><i class="fa fa-instagram"></i></a>
 						</li>
 					</ul>
 		    	</div>
@@ -19,8 +19,8 @@
 	    			<ul>
 	    				<li><a href="index">Home</a></li>
 	    				<li><a href="flowers-list">Products</a></li>
-	    				<li><a href="#">About Us</a></li>
-	    				<li><a href="#">Contact Us</a></li>
+	    				<li><a href="about">About Us</a></li>
+	    				<li><a href="contact">Contact Us</a></li>
 	    			</ul>
 		    	</div>
 		    	<div class="col-md-3 col-sm-6 col-xs-12 footer-block pb-30">
@@ -33,7 +33,7 @@
 							<div class="features-description">
 								<h4>Do you have any question?</h4>
 								<p>
-									info@arumusflowerdelivery.rw
+									info@aromaflorist.rw
 								</p>
 							</div>
 						</div>

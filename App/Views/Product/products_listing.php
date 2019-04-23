@@ -10,11 +10,6 @@ $flowers=$admin->loadAllPublicFlowers();
 	                	<i class="fa fa-th"></i>
 	                </a>
 	            </li>
-	            <li>
-	            	<a data-toggle="tab" href="#list-view" class="">
-	            		<i class="fa fa-list-ul"></i>
-	            	</a>
-	            </li>
 	        </ul>
 	        <span class="show-items">Showing 1 to 9</span>
 	    </div>

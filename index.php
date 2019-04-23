@@ -1,9 +1,9 @@
 <?php 
-define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'flower/');
+define("ROOT_URL", $_SERVER['DOCUMENT_ROOT'].'/flower/');
 define("VIEWS", ROOT_URL.'App/Views/');
 define("APP_URL", ROOT_URL.'/Dashboard/');
 define("LOADER", APP_URL.'App/Views/Utils/classes_loader.php');
-define("APP_NAME", 'Arums Flowers');
+define("APP_NAME", 'Aroma Florist');
 require LOADER;
 ?>
 <!DOCTYPE html>
@@ -37,14 +37,11 @@ require LOADER;
 
 
 				        <h2 class="sp-layer main-slider__title font-italic" data-horizontal="50%" data-vertical="120" data-show-transition="up" data-hide-transition="left" data-show-duration="800" data-show-delay="800" data-hide-delay="800">
-							Arums
+							<?php echo APP_NAME; ?>
 						</h2>
-						<h2 class="sp-layer main-slider__title color-primary font-bold hidden-md" data-horizontal="50%" data-vertical="210" data-show-transition="up" data-hide-transition="left" data-show-duration="900" data-show-delay="900" data-hide-delay="900">
-							Flowers Delivery
-						</h2>
-				        <div class="sp-layer main-slider__text" data-horizontal="50%" data-vertical="320"  data-show-transition="up" data-hide-transition="left" data-show-duration="1000" data-show-delay="1000" data-hide-delay="1000">
+				        <div class="sp-layer main-slider__text" data-horizontal="50%" data-vertical="220"  data-show-transition="up" data-hide-transition="left" data-show-duration="1000" data-show-delay="1000" data-hide-delay="1000">
 				            <p class="hidden-xs">
-				           		 We Deliver The Beauty From Nature.
+				           		 Delivering the moment<!-- We Deliver The Beauty From Nature. -->
 							</p>
 				            <div class="main-slider__btn-group">
 				                <a class="mt-40 btn btn-features btn-primary btn-radius" href="flowers-list">Shop now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
@@ -60,14 +57,11 @@ require LOADER;
 		        <!-- Slide 2-->
 		       	<div class="sp-slide section-bg" style="background-image:url(assets/images/slider/home3_slider2.jpg)">
 			        <h2 class="sp-layer main-slider__title font-italic text-center" data-horizontal="50%" data-vertical="120" data-show-transition="up" data-hide-transition="center" data-show-duration="800" data-show-delay="800" data-hide-delay="800">
-						Arums
+						<?php echo APP_NAME; ?>
 					</h2>
-					<h2 class="sp-layer main-slider__title color-primary font-bold  text-center" data-horizontal="50%" data-vertical="210" data-show-transition="up" data-hide-transition="center" data-show-duration="900" data-show-delay="900" data-hide-delay="900">
-						Flowers Delivery
-					</h2>
-			        <div class="sp-layer main-slider__text text-center" data-horizontal="50%" data-vertical="310"  data-show-transition="up" data-hide-transition="center" data-show-duration="1000" data-show-delay="1000" data-hide-delay="1000">
+			        <div class="sp-layer main-slider__text text-center" data-horizontal="50%" data-vertical="210"  data-show-transition="up" data-hide-transition="center" data-show-duration="1000" data-show-delay="1000" data-hide-delay="1000">
 			            <p class="hidden-xs">
-			           		 We Deliver The Beauty From Nature.
+			           		 Delivering the moment
 						</p>
 			            <div class="main-slider__btn-group">
 			                <a class="mt-40 btn btn-features btn-primary btn-radius" href="flowers-list">Shop now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>

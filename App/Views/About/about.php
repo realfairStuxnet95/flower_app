@@ -3,7 +3,9 @@
 		<div class="row">
 			<div class="col-md-4 col-sm-12 col-xs-12">
 				<div class="section-number section-bg section-bg-fix bg-overlay text-center" style="background-image:url(assets/images/rose.jpg);background-size: contain;background-position: center;">
-					<h4 class="experience-title text-uppercase">Arumus Flowers</h4>
+					<h4 class="experience-title text-uppercase">
+						<?php echo APP_NAME; ?>
+					</h4>
 					<div class="experience-number">
 						<img src="assets/images/logo_full.png">
 					</div>
@@ -14,7 +16,7 @@
 					<h3 class="experience-title">We have created beautifull products for you</h3>
 					<div class="experience-description">
 						<p>
-							<strong>The ARUMS FLOWERS RWANDA</strong>, is an enterprise specilised in delivering all sort of flowers across Rwanda. With more than 2 yearsye experince we provide different types of flowers including but not limited to:
+							<strong>The <?php echo APP_NAME; ?> RWANDA</strong>, is an enterprise specilised in delivering all sort of flowers across Rwanda. With more than 2 years of experince we provide different types of flowers including but not limited to:
 							<ul style="color: #FF3333;font-weight: bold;">
 								<li>
 									1. Birthday flowers,
@@ -33,9 +35,6 @@
 <div class="section-kind features skin1 clearfix pt-50 pb-50">
 	<div class="container">
 		<div class="heading text-uppercase text-center pb-100">
-			<div class="heading__sub">
-				The best of a kind
-			</div>
 			<div class="heading__title">
 				Explore Our Service Culture
 			</div>
@@ -44,7 +43,7 @@
 			<div class="col-md-4">
 				<div class="features_list">
 					<div class="features-images">
-						<img src="assets/images/icon_feature1.png" alt="">
+						<img src="assets/images/icon_phone.png" alt="">
 					</div>
 					<div class="features-description">
 						<h4>Customer service</h4>
@@ -57,7 +56,7 @@
 			<div class="col-md-4">
 				<div class="features_list">
 					<div class="features-images">
-						<img src="assets/images/icon_feature2.png" alt="">
+						<img src="assets/images/icon_payment.png" alt="">
 					</div>
 					<div class="features-description">
 						<h4>Payment mode </h4>
@@ -73,13 +72,13 @@
 			<div class="col-md-4">
 				<div class="features_list">
 					<div class="features-images">
-						<img src="assets/images/icon_feature3.png" alt="">
+						<img src="assets/images/location.png" alt="">
 					</div>
 					<div class="features-description">
 						<h4>Contact us for Supports</h4>
 						<p>
 							Address: KN2 ave , Kigali near by National Institute of statistics<br>
-							E-mail:info@arumusflowerdelivery.rw
+							E-mail:info@aromaflorist.rw
 						</p>
 					</div>
 				</div>
@@ -98,11 +97,12 @@
 				<br>Improve our service delivery by focusing on projects that add values to our clients.
 
 				<br>Tofacilitate our clients to be able to make payments at anytime, anywhere 24/7.</p></center>
-			<a href="flowers-list" class="color-primary font-bold pt-20">Exprore our products!</a>
+			<a href="flowers-list" class="color-primary font-bold pt-20">Exprore our products!</a><br>
+			<h4>"We Deliver The Beauty From Nature.."</h4>
 		</div>
 	</div>
 </div>
-<div class="section-image pb-50 clearfix">
+<div class="section-image pb-50 clearfix" style="display: none;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">

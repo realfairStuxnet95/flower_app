@@ -67,7 +67,7 @@ define("APP_NAME", 'Arums Flowers');
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <img id="preLoader" src="assets/images/logo.png" style="display: none;">
+                                    <img id="preLoader" src="../assets/images/glow.gif" style="display: none;">
                                 </div>
                             </div>
                             <div class="row">
